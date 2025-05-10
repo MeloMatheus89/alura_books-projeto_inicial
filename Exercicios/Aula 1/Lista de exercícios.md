@@ -17,11 +17,13 @@ Lembre-se de adicionar a tag <script> que referencia seu arquivo main.js no arqu
 
 Imagine que você está trabalhando em uma livraria virtual como desenvolvedor front-end. Sua tarefa é: melhore a experiência do usuário ao exibir os livros disponíveis. Você precisa criar uma página que mostre todos os livros disponíveis, utilizando JavaScript para inserir dinamicamente cada livro em uma section com id="livros". Cada livro deve ser representado por uma <div> que contém:
 
-. a imagem do livro;
-. o título;
-. o autor;
-. o preço; e
-a categoria. Os dados dos livros estão disponíveis em um array chamado listaDeLivros, no qual cada livro é um objeto com as seguintes propriedades: título, autor, imagem, preco e categoria.
+- a imagem do livro;
+- o título;
+- o autor;
+- o preço;
+- e a categoria.
+
+Os dados dos livros estão disponíveis em um array chamado listaDeLivros, no qual cada livro é um objeto com as seguintes propriedades: título, autor, imagem, preco e categoria.
 Dicas para realizar o exercício:
 Selecione a section na qual os livros serão inseridos utilizando o método getElementById;
 Use um loop forEach para iterar sobre o array listaDeLivros;
